@@ -1,0 +1,11 @@
+(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))n(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const a of t.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&n(a)}).observe(document,{childList:!0,subtree:!0});function r(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function n(e){if(e.ep)return;e.ep=!0;const t=r(e);fetch(e.href,t)}})();const o=[{title:"Disease Prediction",desc:`A multi-feature disease prediction system using symptom-based inputs. 
+Implements a Decision Tree classifier to suggest likely diseases based on user response.
+Built with Flask for the backend and trained on a labeled medical dataset.`,link:"https://github.com/yo-rk/CodeAlpha_DiseasePrediction",tags:["#ML","#Flask","#DecisionTree"]},{title:"Handwritten Character Recognition",desc:`Deep learning-based application that classifies handwritten characters using CNN.
+Trained on the EMNIST dataset, optimized with data augmentation and dropout layers.
+Deployed as a lightweight client-facing demo using Flask and OpenCV preprocessing.`,link:"https://github.com/yo-rk/CodeAlpha_HandwrittenCharacterRecognition",tags:["#CNN","#TensorFlow","#ComputerVision"]},{title:"Credit Scoring System",desc:`Machine Learning model that assesses creditworthiness from demographic and financial data.
+Uses logistic regression to predict loan default risk with high recall precision.
+Focused on preprocessing imbalanced datasets and feature engineering for better accuracy.`,link:"https://github.com/yo-rk/CodeAlpha_CreditScroing",tags:["#LogisticRegression","#Pandas","#Finance"]}],c=document.getElementById("cards-container");o.forEach(s=>{const i=document.createElement("div");i.className="card";const r=s.tags.map(n=>`<span class="tag">${n}</span>`).join("");i.innerHTML=`
+    <h2>${s.title}</h2>
+    <p>${s.desc}</p>
+    <div class="tags">${r}</div>
+  `,i.onclick=()=>window.open(s.link,"_blank"),c.appendChild(i)});

@@ -1,4 +1,4 @@
-# 🚀 Portfolio-Space
+# 🚀 ML Gallery
 
 An interactive, animated portfolio built using **HTML**, **CSS**, and **Vanilla JavaScript**, designed to showcase my evolving technical projects and experiments — from Machine Learning to Frontend Web Development.
 
@@ -22,7 +22,7 @@ An interactive, animated portfolio built using **HTML**, **CSS**, and **Vanilla 
 2. **Handwritten Character Classifier** – CNN-based recognition using EMNIST  
 3. **Credit Scoring System** – Logistic Regression on financial datasets
 
-(More frontend projects coming soon...)
+(More projects coming soon...)
 
 ---
 

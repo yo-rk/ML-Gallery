@@ -2,7 +2,7 @@
 
 An interactive, animated portfolio built using **HTML**, **CSS**, and **Vanilla JavaScript**, designed to showcase my evolving technical projects and experiments — from Machine Learning to Frontend Web Development.
 
-🔗 **Live Preview**: [yo-rk.github.io/Portfolio-Space](https://yo-rk.github.io/Portfolio-Space/)
+🔗 **Live Preview**: [yo-rk.github.io/Portfolio-Space](https://yo-rk.github.io/ML-Gallery/)
 
 ---
 
